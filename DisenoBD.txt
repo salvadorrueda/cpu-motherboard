@@ -1,0 +1,13 @@
+Diseño de la base de datos
+
+
+[CPU] -- <> -- [Placa base]
+
+Definimos dos tablas. Una "CPU" para almacenar los datos de las CPUs y
+otra "Placa base" para almacenar los datos de las Placas base.
+
+
+[Placa base] n -- <soporta> -- m [CPU]
+
+Una placa base soporta más de una CPU y una CPU es soportada por más de una placa base.
+Así que la relación es n - m.
