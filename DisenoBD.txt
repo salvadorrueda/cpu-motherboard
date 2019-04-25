@@ -11,3 +11,14 @@ otra "Placa base" para almacenar los datos de las Placas base.
 
 Una placa base soporta más de una CPU y una CPU es soportada por más de una placa base.
 Así que la relación es n - m.
+
+Cuando tenemos una relación n -m tenemos que crear una nueva tabla con los identificadores
+(claves primárias) de las dos tablas.
+
+[Placa base] n -- <soporta> -- m [CPU]
+                   [id_pb, id_cpu]      
+
+
+
+
+
